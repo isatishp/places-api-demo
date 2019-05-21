@@ -1,5 +1,5 @@
 googlemaps.api:
-  key: AIzaSyBEYnFNHhwoPzUgJo-n5bVCjGbMdk68OVA
+  key: ${GOOGLE_API_KEY}
   base_url: https://maps.googleapis.com/maps/api
 
 placesapi:
@@ -8,7 +8,5 @@ placesapi:
 
 geocodeapi:
   base_url: ${googlemaps.api.base_url}/geocode
-
-
 
 logging.level.org.springify.placesapi.accessors: DEBUG
