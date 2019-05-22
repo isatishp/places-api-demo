@@ -6,7 +6,5 @@ placesapi:
   base_url: ${googlemaps.api.base_url}/place
   displayedFields: formatted_address,name,geometry/location,types
 
-geocodeapi:
-  base_url: ${googlemaps.api.base_url}/geocode
-
-logging.level.org.springify.placesapi.accessors: DEBUG
+logging.level:
+  org.springify.placesapi.accessors: DEBUG
